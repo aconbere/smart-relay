@@ -1,4 +1,4 @@
-18637135757236078
+18638742430506078
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82057,6 +82057,13 @@ smart-relay
 DIO_1N4447
 DIO_1N4447
 Diode
+0
+2
+2
+smart-relay
+K104K15X7RF53H5
+K104K15X7RF53H5
+Capacitor
 0
 2
 2
