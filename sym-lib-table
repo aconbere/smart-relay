@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name smart-relay)(type Legacy)(uri ${KIPRJMOD}/smart-relay.lib)(options "")(descr ""))
+)

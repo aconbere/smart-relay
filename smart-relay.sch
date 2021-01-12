@@ -113,7 +113,7 @@ F 3 "~" H 1550 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2750 3250 2    50   Input ~ 0
-VSENSE
+VSENSE1
 Wire Wire Line
 	2750 3250 2400 3250
 $Comp
@@ -191,8 +191,7 @@ SDA
 Text GLabel 4650 4200 2    50   Input ~ 0
 SCL
 Text GLabel 4650 4300 2    50   Input ~ 0
-VSENSE
-NoConn ~ 4650 4500
+VSENSE1
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FC3835A
@@ -406,64 +405,64 @@ $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5FCD4BB4
-P 4200 3300
-F 0 "#PWR08" H 4200 3050 50  0001 C CNN
-F 1 "GND" V 4205 3172 50  0000 R CNN
-F 2 "" H 4200 3300 50  0001 C CNN
-F 3 "" H 4200 3300 50  0001 C CNN
-	1    4200 3300
+P 4500 3300
+F 0 "#PWR08" H 4500 3050 50  0001 C CNN
+F 1 "GND" V 4505 3172 50  0000 R CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L smart-relay:TMCS1101A4BQDR IC1
 U 1 1 5FCE5121
-P 1150 4350
-F 0 "IC1" H 1750 4615 50  0000 C CNN
-F 1 "TMCS1101A4BQDR" H 1750 4524 50  0000 C CNN
-F 2 "smart-relay:SOIC127P600X175-8N" H 2200 4450 50  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tmcs1101.pdf?ts=1600726579455&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTMCS1101A4BQDR" H 2200 4350 50  0001 L CNN
-F 4 "Board Mount Hall Effect / Magnetic Sensors Precision isolated current sensor with internal reference" H 2200 4250 50  0001 L CNN "Description"
-F 5 "1.75" H 2200 4150 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 2200 4050 50  0001 L CNN "Manufacturer_Name"
-F 7 "TMCS1101A4BQDR" H 2200 3950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-TMCS1101A4BQDR" H 2200 3650 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMCS1101A4BQDR?qs=7MVldsJ5Uazdi4bfyl50vQ%3D%3D" H 2200 3550 50  0001 L CNN "Mouser Price/Stock"
-	1    1150 4350
+P 1000 6150
+F 0 "IC1" H 1600 6415 50  0000 C CNN
+F 1 "TMCS1101A4BQDR" H 1600 6324 50  0000 C CNN
+F 2 "smart-relay:SOIC127P600X175-8N" H 2050 6250 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tmcs1101.pdf?ts=1600726579455&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTMCS1101A4BQDR" H 2050 6150 50  0001 L CNN
+F 4 "Board Mount Hall Effect / Magnetic Sensors Precision isolated current sensor with internal reference" H 2050 6050 50  0001 L CNN "Description"
+F 5 "1.75" H 2050 5950 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2050 5850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TMCS1101A4BQDR" H 2050 5750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TMCS1101A4BQDR" H 2050 5450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMCS1101A4BQDR?qs=7MVldsJ5Uazdi4bfyl50vQ%3D%3D" H 2050 5350 50  0001 L CNN "Mouser Price/Stock"
+	1    1000 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR01
 U 1 1 5FCE5CF5
-P 2350 4350
-F 0 "#PWR01" H 2350 4200 50  0001 C CNN
-F 1 "+3.3V" V 2365 4478 50  0000 L CNN
-F 2 "" H 2350 4350 50  0001 C CNN
-F 3 "" H 2350 4350 50  0001 C CNN
-	1    2350 4350
+P 2200 6150
+F 0 "#PWR01" H 2200 6000 50  0001 C CNN
+F 1 "+3.3V" V 2215 6278 50  0000 L CNN
+F 2 "" H 2200 6150 50  0001 C CNN
+F 3 "" H 2200 6150 50  0001 C CNN
+	1    2200 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5FCE9249
-P 2350 4650
-F 0 "#PWR04" H 2350 4400 50  0001 C CNN
-F 1 "GND" V 2355 4522 50  0000 R CNN
-F 2 "" H 2350 4650 50  0001 C CNN
-F 3 "" H 2350 4650 50  0001 C CNN
-	1    2350 4650
+P 2200 6450
+F 0 "#PWR04" H 2200 6200 50  0001 C CNN
+F 1 "GND" V 2205 6322 50  0000 R CNN
+F 2 "" H 2200 6450 50  0001 C CNN
+F 3 "" H 2200 6450 50  0001 C CNN
+	1    2200 6450
 	0    -1   1    0   
 $EndComp
-Text GLabel 1150 4650 0    50   Input ~ 0
+Text GLabel 1000 6450 0    50   Input ~ 0
 COM
-Text GLabel 1150 4550 0    50   Input ~ 0
+Text GLabel 1000 6350 0    50   Input ~ 0
 COM
-Text GLabel 1150 4450 0    50   Input ~ 0
+Text GLabel 1000 6250 0    50   Input ~ 0
 NC
-Text GLabel 1150 4350 0    50   Input ~ 0
+Text GLabel 1000 6150 0    50   Input ~ 0
 NC
 Text GLabel 4650 4400 2    50   Input ~ 0
 ISENSE
-Text GLabel 2350 4450 2    50   Input ~ 0
+Text GLabel 2200 6250 2    50   Input ~ 0
 ISENSE
 $Comp
 L Connector_Generic:Conn_01x04 J3
@@ -534,5 +533,114 @@ F 2 "" H 4200 2900 50  0001 C CNN
 F 3 "" H 4200 2900 50  0001 C CNN
 	1    4200 2900
 	0    -1   -1   0   
+$EndComp
+Text GLabel 2750 4900 2    50   Input ~ 0
+VSENSE2
+Wire Wire Line
+	2750 4900 2400 4900
+$Comp
+L pspice:OPAMP U?
+U 1 1 5FDAA562
+P 2100 4900
+F 0 "U?" H 2444 4946 50  0000 L CNN
+F 1 "OPAMP" H 2444 4855 50  0000 L CNN
+F 2 "smart-relay:SOT95P280X145-5N" H 2100 4900 50  0001 C CNN
+F 3 "~" H 2100 4900 50  0001 C CNN
+	1    2100 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDAA568
+P 1100 5150
+F 0 "R?" H 1170 5196 50  0000 L CNN
+F 1 "3.3k" H 1170 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 1030 5150 50  0001 C CNN
+F 3 "~" H 1100 5150 50  0001 C CNN
+	1    1100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDAA56E
+P 1100 4450
+F 0 "R?" H 1170 4496 50  0000 L CNN
+F 1 "47k" H 1170 4405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 1030 4450 50  0001 C CNN
+F 3 "~" H 1100 4450 50  0001 C CNN
+	1    1100 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 4300 1    50   Input ~ 0
+NO
+Wire Wire Line
+	1100 4600 1100 5000
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FDAA576
+P 1550 4600
+F 0 "D?" H 1550 4817 50  0000 C CNN
+F 1 "D_Schottky" H 1550 4726 50  0000 C CNN
+F 2 "smart-relay:DIO_1N4447" H 1550 4600 50  0001 C CNN
+F 3 "~" H 1550 4600 50  0001 C CNN
+	1    1550 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4600 1100 4600
+Connection ~ 1100 4600
+Wire Wire Line
+	1700 4600 2000 4600
+Connection ~ 2000 4600
+Wire Wire Line
+	2000 4350 2000 4600
+Wire Wire Line
+	2400 4900 2400 4500
+Wire Wire Line
+	2400 4500 1800 4500
+Wire Wire Line
+	1800 4500 1800 4800
+Connection ~ 2400 4900
+Wire Wire Line
+	1800 5000 1100 5000
+Connection ~ 1100 5000
+Wire Wire Line
+	2000 5200 2000 5300
+Text GLabel 1100 5300 3    50   Input ~ 0
+COM
+$Comp
+L power:GND #PWR?
+U 1 1 5FDAA589
+P 2000 5300
+F 0 "#PWR?" H 2000 5050 50  0001 C CNN
+F 1 "GND" H 2005 5127 50  0000 C CNN
+F 2 "" H 2000 5300 50  0001 C CNN
+F 3 "" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDAA58F
+P 2000 4350
+F 0 "#PWR?" H 2000 4200 50  0001 C CNN
+F 1 "+3.3V" H 2015 4523 50  0000 C CNN
+F 2 "" H 2000 4350 50  0001 C CNN
+F 3 "" H 2000 4350 50  0001 C CNN
+	1    2000 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 4500 2    50   Input ~ 0
+VSENSE2
+$Comp
+L Device:R R?
+U 1 1 5FDBEB46
+P 4350 3300
+F 0 "R?" V 4143 3300 50  0000 C CNN
+F 1 "R 330" V 4234 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4280 3300 50  0001 C CNN
+F 3 "~" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

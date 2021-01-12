@@ -1,4 +1,4 @@
-18638742430506078
+18624286035065941
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82039,66 +82039,3 @@ varistor SIOV
 0
 2
 2
-smart-relay
-CONN_BM04B-SRSS-TB(LF)(SN)
-
-
-0
-6
-6
-smart-relay
-DIOAD1410W60L470D235
-RL1N4007-T
-Diode
-0
-2
-2
-smart-relay
-DIO_1N4447
-DIO_1N4447
-Diode
-0
-2
-2
-smart-relay
-K104K15X7RF53H5
-K104K15X7RF53H5
-Capacitor
-0
-2
-2
-smart-relay
-LTL4232
-LTL-4232-2
-LED
-0
-2
-2
-smart-relay
-SHDR3W100P0X500_1X3_1500X900X1290P
-TB001-500-03BE
-Connector
-0
-3
-3
-smart-relay
-SOIC127P600X175-8N
-D
-Integrated Circuit
-0
-8
-8
-smart-relay
-SOT95P280X145-5N
-5-Lead Plastic Small Outline Transistor (OT) (SOT-23)
-Integrated Circuit
-0
-5
-5
-smart-relay
-SOT96P237X111-3N
-SOT−23 (TO−236) CASE 318−08 ISSUE AS_a
-MOSFET (N-Channel)
-0
-3
-3
